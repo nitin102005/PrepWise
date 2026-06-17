@@ -1,0 +1,16 @@
+# Server port (client expects http://localhost:8000 by default)
+PORT=8000
+
+# MongoDB connection string
+MONGODB_URL=mongodb://127.0.0.1:27017/interviewiq
+
+# JWT secret for auth cookies (use a long random string in production)
+JWT_SECRET=your_jwt_secret_here
+
+# OpenRouter API key — powers all AI features (resume parsing, questions, scoring)
+# Get one at: https://openrouter.ai/keys
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+# Razorpay payment gateway (https://dashboard.razorpay.com/app/keys)
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
