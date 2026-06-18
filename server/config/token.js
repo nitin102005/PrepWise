@@ -9,5 +9,6 @@ return token
     }
 
 }
+//work
 
 export default genToken
