@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://prep-wise-jfda.vercel.app"
+      "https://prep-wise-beige.vercel.app/"
     ],
     credentials: true
   })
