@@ -22,7 +22,7 @@ function App() {
   useEffect(()=>{
     const getUser = async () => {
       try {
-        const result = await axios.get(ServerUrl + "/api/user/current-user", {withCredentials:true})
+        const result = await axios.get(`${ServerUrl}/api/user/current-user`, {withCredentials:true})
         dispatch(setUserData(result.data))
       } catch (error) {
         console.log(error)
