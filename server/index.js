@@ -12,10 +12,7 @@ import paymentRouter from "./routes/payment.route.js"
 const app = express()
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://prep-wise-beige.vercel.app/"
-    ],
+    origin: ["https://prep-wise-beige.vercel.app"],
     credentials: true
   })
 );
