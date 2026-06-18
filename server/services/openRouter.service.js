@@ -22,7 +22,6 @@ export const askAi = async (messages) => {
         if (!content || !content.trim()) {
       throw new Error("AI returned empty response.");
     }
-
     return content
     } catch (error) {
             console.error("OpenRouter Error:", error.response?.data || error.message);
